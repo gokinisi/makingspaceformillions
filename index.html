@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nervarah - Rewire Your Brain for Abundance</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <h1 class="logo">Nervarah</h1>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#workshop">Workshop</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#subscribe">Subscribe</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container">
+      <h2>Rewire Your Brain</h2>
+      <h3>Unlock Abundance & Make Space for Millions</h3>
+      <p>Join transformative workshops and insights on neuroplasticity, mindset shifts, and thriving.</p>
+      <a href="#workshop" class="btn primary">Secure Your Spot – April 4 Workshop</a>
+    </div>
+  </section>
+
+  <!-- Workshop / Tickets Section -->
+  <section id="workshop" class="section workshop">
+    <div class="container">
+      <h2>Making Space for Millions</h2>
+      <div class="event-details">
+        <p><strong>Date & Time:</strong> April 4, 2026 | 11:00 AM – 3:00 PM EST</p>
+        <p><strong>Format:</strong> Live Online Workshop</p>
+        <p><strong>Price:</strong> $50 (One-time payment)</p>
+        <p>Experience powerful brain-rewiring exercises, guided sessions, and tools to expand your capacity for wealth, joy, and impact.</p>
+      </div>
+      <!-- Stripe Buy Button – Replace with your real Checkout link -->
+      <a href="https://buy.stripe.com/test_YourCheckoutLinkHere" class="btn large">Buy Ticket – $50</a>
+      <p class="secure-note">Secure payment via Stripe. Instant access details after purchase.</p>
+    </div>
+  </section>
+
+  <!-- Blog Teaser Section -->
+  <section id="blog" class="section blog">
+    <div class="container">
+      <h2>Blog: Rewiring the Brain</h2>
+      <div class="blog-grid">
+        <!-- Add your articles here; example placeholders -->
+        <article class="blog-card">
+          <h3>Neuroplasticity 101: How to Rewire for Abundance</h3>
+          <p>Discover the science behind changing neural pathways...</p>
+          <a href="#" class="read-more">Read More →</a>
+        </article>
+        <article class="blog-card">
+          <h3>Daily Habits That Strengthen Your Money Mindset</h3>
+          <p>Small shifts that compound into massive results...</p>
+          <a href="#" class="read-more">Read More →</a>
+        </article>
+      </div>
+      <a href="#" class="btn outline">View All Articles</a>
+    </div>
+  </section>
+
+  <!-- Email Signup Section -->
+  <section id="subscribe" class="section subscribe">
+    <div class="container">
+      <h2>Join the Journey</h2>
+      <p>Get free brain-rewiring tips, workshop updates, and exclusive content.</p>
+      <form id="email-form" class="signup-form">
+        <input type="email" placeholder="Your best email" required/>
+        <button type="submit" class="btn primary">Subscribe</button>
+      </form>
+      <p id="form-message"></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 Nervarah. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://js.stripe.com/v3/"></script> <!-- For future custom Stripe if needed -->
+  <script src="script.js"></script>
+</body>
+</html>
